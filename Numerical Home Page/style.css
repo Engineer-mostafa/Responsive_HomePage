@@ -1,0 +1,580 @@
+.container
+{
+    background-color:black;
+   
+
+}
+
+*
+{
+    margin: 0px;
+    padding: 0px;
+
+}
+.body
+{
+    perspective: 600px;
+}
+.CurveFitting
+{
+    height: 1000px;
+    background-image: linear-gradient(to bottom, #002C4B,#010027);
+    position: relative;
+
+}
+
+.Calculas
+{
+    background-image: linear-gradient(to bottom, #2E002F,#28003A) ;
+    height: 1000px;
+    position: relative;
+
+}
+
+.DiffrentialEqs
+{
+    background-image: linear-gradient(to bottom, #421C00,#330003) ;
+    height: 1000px;
+    position: relative;
+
+}
+
+.SystemofEqs
+{
+    background-image: linear-gradient(to bottom, #312C00,#012F00) ;
+    height: 1000px;
+    position: relative;
+
+}
+.logo
+{
+    position: relative;
+}
+
+.wordsinlogo1, .wordsinlogo2
+{
+    color: white;
+    position: absolute;
+    width: 50px;
+    height: 30px;
+    font-family: Reem Kufi;
+   
+    font-size: 30px;
+    
+    text-align: center;
+    text-decoration-line: none;
+}
+.wordsinlogo1
+{
+   
+    left: 300px;
+    top: 26px;
+
+}
+.wordsinlogo2
+{
+   
+    left: 1000px;
+    top: 26px;
+
+}
+.logophoto
+{
+    position: absolute;
+    left: 500px;
+    top: 100px;
+
+  
+
+}
+.rec17
+{
+    width: 100%;
+}
+
+
+
+.Curvelist
+{
+    top: 450px;   
+}
+
+
+
+.h11{
+        position: absolute;
+        width: 1000px;
+        height: 84px;
+        left: 38px;
+        width: max-content;
+
+        font-family: Reem Kufi;
+
+        line-height: 55px;
+
+        color: #1C9FFF;
+        
+}
+
+.curvefitting3dmodel, .calc3dmodel, .diffeq3d, .sys3dmodel
+{
+    display: block;
+    position: absolute;
+    left: 750px;
+    top: 150px;
+
+}
+
+
+.h1c
+{
+    position: absolute;
+    height: 84px;
+    left: 38px;
+
+    font-family: Reem Kufi;
+    line-height: 55px;
+
+
+    color: #FF1C6D;
+}
+.Calculaslist
+{
+    
+    top : 400px;
+    
+}
+.h1d
+{
+    position: absolute;
+width: 1000px;
+height: 84px;
+left: 38px;
+width: max-content;
+
+font-family: Reem Kufi;
+line-height: 55px;
+
+
+
+color: #FF6D1C;
+}
+.DiffrentialEqslist
+{
+  
+top: 400px;
+
+
+}
+.h1s
+{
+    position: absolute;
+width: 1105px;
+height: 84px;
+left: 38px;
+width: max-content;
+
+
+font-family: Reem Kufi;
+
+line-height: 55px;
+
+
+color: #DFFF1C;
+}
+.SystemofEqslist
+{
+  
+    top: 450px;
+   
+}
+.Curvelist, .Calculaslist, .DiffrentialEqslist, .SystemofEqslist
+{
+    font-size: 30px;
+    position: absolute;
+    width: 545px;
+    left: 15%;
+    top: 220px;
+    width: max-content;
+    font-family: Reem Kufi;
+    color: #FFFFFF;
+
+}
+.c1, .c2, .c3, .calc1, .calc2, .calc3, .calc4, .calc5, .df1 , .df2, .df3, .sq1, .sq2, .sq3
+{
+    color: white;
+    text-decoration-line: none;
+    display: block;
+    font-size: 30px;
+
+    
+}
+.c1, .c2, .c3, .calc1, .calc2, .calc3, .calc4, .calc5, .df1 , .df2, .df3, .sq1, .sq2, .sq3, .wordsinlogo1, .wordsinlogo2  :hover
+{
+    cursor: pointer;
+    
+}
+
+h1 span{
+    color: white;
+}
+
+.h11, .h1c, .h1d, .h1s
+{
+    font-size: 55px;
+    top: 100px;
+    left: 11%;
+}
+.leftcurve, .leftcalc, .leftde, .leftse
+{
+    position: absolute;
+    
+    left: 0px;
+    top: 0px;
+    width: 10%;
+    height: 100%;
+}
+
+@media screen and (max-width: 650px) 
+        {
+            .logophoto
+            {
+                left: 1px;
+                top: 1px;
+                width: 50px;
+            }
+            .wordsinlogo1
+            {
+                float: right;
+                left: 190px;
+                font-size: 7px;
+                top: 1px;
+
+            }
+            .wordsinlogo2
+            {
+                float: right;
+
+                left:220px;
+                top: 1px;
+
+                font-size: 7px;
+
+            }
+            .container
+            {
+               max-height: 500px;
+            }
+            .CurveFitting, .Calculas, .DiffrentialEqs, .SystemofEqs
+            {
+                height: 110px;
+                float: left;   
+                width: 25%;
+                transition: all 3s ease-in-out;
+            }
+
+            .CurveFitting:hover, .Calculas:hover, .DiffrentialEqs:hover, .SystemofEqs:hover
+            {
+                    transform:translate3d(0,0,100px);
+            }
+
+            .h11, .h1c, .h1d, .h1s
+            {
+                font-size: 9px ;
+                left: 11%;
+                top: 10px;
+
+            }
+           
+           
+            
+            .Curvelist,.Calculaslist,.DiffrentialEqslist,.SystemofEqslist
+            {
+                top: 50px;
+                left: 25%;
+                
+                
+            }
+            .c1, .c2, .c3, .calc1, .calc2, .calc3, .calc4, .calc5, .df1 , .df2, .df3, .sq1, .sq2, .sq3
+            {
+               height: 5px;
+               font-size: 2.6px  ;
+
+            }
+           .c1 img, .c2 img, .c3 img, .calc1 img, .calc2 img, .calc3 img, .calc4 img, .calc5 img, .df1 img, .df2 img, .df3 img, .sq1 img, .sq2 img, .sq3 img
+            {
+                width: 3px;
+            }
+
+            .curvefitting3dmodel, .calc3dmodel, .diffeq3d, .sys3dmodel
+            {
+                position: absolute;
+                left: 9%;
+                top: 1px;
+                width: 30px;
+            }
+            
+        }
+
+@media screen  and (min-width: 651px) and (max-width: 1000px) 
+        {
+            
+            .logophoto
+            {
+                left: 1px;
+                top: 1px;
+                width: 100px;
+            }
+            .wordsinlogo1
+            {
+                left: 540px;
+                font-size: 17px;
+                top: 1px;
+
+            }
+            .wordsinlogo2
+            {
+                left:600px;
+                top: 1px;
+
+                font-size: 17px;
+
+            }
+            .container
+            {
+               max-height: 500px;
+            }
+            .CurveFitting, .Calculas, .DiffrentialEqs, .SystemofEqs
+            {
+                height: 150px;
+                float: left;   
+                width: 25%;
+                transition: all 3s ease-in-out;
+
+            }
+            .h11, .h1c, .h1d, .h1s
+            {
+                font-size: 15px ;
+                left: 12%;
+                top: 5px;
+            }
+
+           
+           .Curvelist,.Calculaslist,.DiffrentialEqslist,.SystemofEqslist
+            {
+                top: 50px;
+                left: 16%;
+                
+            }
+            .c1 img, .c2 img, .c3 img, .calc1 img, .calc2 img, .calc3 img, .calc4 img, .calc5 img, .df1 img, .df2 img, .df3 img, .sq1 img, .sq2 img, .sq3 img
+            {
+                width: 5px;
+            }
+            .c1, .c2, .c3, .calc1, .calc2, .calc3, .calc4, .calc5, .df1 , .df2, .df3, .sq1, .sq2, .sq3
+            {
+               height: 10px;
+               font-size: 7px ;
+
+            }
+            .curvefitting3dmodel, .calc3dmodel, .diffeq3d, .sys3dmodel
+            {
+                position: absolute;
+                left: 140px;
+                top: 55px;
+                width: 30px;
+               
+            }
+            
+        }
+
+@media screen  and (min-width:1001px) and (max-width: 1360px) 
+        {
+            
+           
+            .container
+            {
+               max-height: 500px;
+            }
+            .CurveFitting, .Calculas, .DiffrentialEqs, .SystemofEqs
+            {
+                height: 200px;
+                float: left;   
+                width: 25%;
+                transition: all 3s ease-in-out;
+
+            }
+            .h11, .h1c, .h1d, .h1s
+            {
+                font-size: 30px ;
+                left: 10%;
+                top: 30px;
+            }
+
+          
+           .Curvelist,.Calculaslist,.DiffrentialEqslist,.SystemofEqslist
+            {
+                top: 80px;
+                left: 50px;
+                
+            }
+            .c1 img, .c2 img, .c3 img, .calc1 img, .calc2 img, .calc3 img, .calc4 img, .calc5 img, .df1 img, .df2 img, .df3 img, .sq1 img, .sq2 img, .sq3 img
+            {
+                width: 5px;
+            }
+            .c1, .c2, .c3, .calc1, .calc2, .calc3, .calc4, .calc5, .df1 , .df2, .df3, .sq1, .sq2, .sq3
+            {
+               height: 15px;
+               font-size: 10px ;
+
+            }
+            .curvefitting3dmodel, .calc3dmodel, .diffeq3d, .sys3dmodel
+            {
+                width: 70px;
+                position: absolute;
+                left: 200px;
+                top: 80px;
+            }
+            
+        }
+
+@media screen  and (min-width:2000px)
+        {
+            .logophoto
+            {
+                left: 1100px;
+                top: 200px;
+                width: 700px;
+            }
+            .wordsinlogo1
+            {
+                left: 540px;
+                font-size: 60px;
+                top: 1px;
+
+            }
+            .wordsinlogo2
+            {
+
+                left:2200px;
+                top: 1px;
+
+                font-size: 60px;
+
+            }
+            
+            .logophoto
+            {
+                float: left;
+            }
+            
+            .wordsinlogo1,.wordsinlogo2
+            {
+                float: right;
+            }
+            .CurveFitting, .Calculas, .DiffrentialEqs, .SystemofEqs
+            {
+                height: 1060px;
+                transition: all 3s ease-in-out;
+
+            }
+            .h11, .h1c, .h1d, .h1s
+            {
+               font-size: 90px;
+               top: 100px;
+               left: 11%;
+            }
+
+          
+           .Curvelist,.Calculaslist,.DiffrentialEqslist,.SystemofEqslist
+            {
+                top: 310px;
+                left: 15%;
+            }
+            .c1 img, .c2 img, .c3 img, .calc1 img, .calc2 img, .calc3 img, .calc4 img, .calc5 img, .df1 img, .df2 img, .df3 img, .sq1 img, .sq2 img, .sq3 img
+            {
+                width: 40px;
+            }
+            .c1, .c2, .c3, .calc1, .calc2, .calc3, .calc4, .calc5, .df1 , .df2, .df3, .sq1, .sq2, .sq3
+            {
+               height: 100px;
+               font-size: 50px;
+
+
+            }
+            .curvefitting3dmodel, .calc3dmodel, .diffeq3d, .sys3dmodel
+            {
+               position: absolute;
+               left: 1350px;
+               top: 250px;
+               width: 700px;
+            }
+            
+        }
+     
+@media screen  and (min-width:2800px)
+        {
+            .logophoto
+            {
+                left: 1px;
+                top: 1px;
+                width: 800px;
+            }
+            .wordsinlogo1
+            {
+                left: 3000px;
+                font-size: 80px;
+                top: 1px;
+
+            }
+            .wordsinlogo2
+            {
+
+                left: 3500px;
+                top: 1px;
+
+                font-size: 80px;
+
+            }
+            
+            .CurveFitting, .Calculas, .DiffrentialEqs, .SystemofEqs
+            {
+                height: 1060px;
+                transition: all 3s ease-in-out;
+
+            }
+            .h11, .h1c, .h1d, .h1s
+            {
+               font-size: 150px;
+               top: 100px;
+               left: 600px;
+            }
+
+          
+           .Curvelist,.Calculaslist,.DiffrentialEqslist,.SystemofEqslist
+            {
+                top: 310px;
+                left: 800px;
+
+            }
+            .c1 img, .c2 img, .c3 img, .calc1 img, .calc2 img, .calc3 img, .calc4 img, .calc5 img, .df1 img, .df2 img, .df3 img, .sq1 img, .sq2 img, .sq3 img
+            {
+                width: 40px;
+            }
+            .c1, .c2, .c3, .calc1, .calc2, .calc3, .calc4, .calc5, .df1 , .df2, .df3, .sq1, .sq2, .sq3
+            {
+                font-size: 50px;
+
+            }
+            .curvefitting3dmodel, .calc3dmodel, .diffeq3d, .sys3dmodel
+            {
+               position: absolute;
+               left: 2500px;
+               top: 100px;
+               width: 1000px;
+            }
+            
+            
+        }
+      
+
+      
